@@ -29,7 +29,7 @@ class Circle implements prop
     @Override
     public void area()
     {
-        System.out.println("Perimeter of the circle: "+(pi*r*r));
+        System.out.println("Area of the circle: "+(pi*r*r));
     }
 }
 
@@ -48,12 +48,12 @@ class Rectangle implements prop
     @Override
     public void area()
     {
-        System.out.println("Perimeter of a rectangle: "+(l*b));
+        System.out.println("Area of the rectangle: "+(l*b));
     }
     @Override
     public void perimeter()
     {
-        System.out.println("Perimeter of a rectangle: "+(2*(l+b)));
+        System.out.println("Perimeter of the rectangle: "+(2*(l+b)));
     }
 }
 
